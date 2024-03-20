@@ -26,6 +26,13 @@
       <Platform>ARM64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dayType.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dayType.cpp" />
+    <ClCompile Include="dayTypeTest.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
