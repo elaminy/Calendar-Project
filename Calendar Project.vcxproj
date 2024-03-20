@@ -182,7 +182,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="calendar.cpp" />
+    <ClCompile Include="dateType.cpp" />
+    <ClCompile Include="dateTypeTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dateType.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
