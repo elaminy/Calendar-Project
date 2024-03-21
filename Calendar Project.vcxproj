@@ -26,6 +26,15 @@
       <Platform>ARM64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dateType.h" />
+    <ClInclude Include="extDateType.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dateType.cpp" />
+    <ClCompile Include="extDateType.cpp" />
+    <ClCompile Include="extDateTypeTest.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
