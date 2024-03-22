@@ -15,7 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="calendar.cpp">
+    <ClInclude Include="dayType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dateType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extDateType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="calendarType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dayType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dateType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extDateType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calendarType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calendarProject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -26,6 +26,19 @@
       <Platform>ARM64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calendarType.h" />
+    <ClInclude Include="dateType.h" />
+    <ClInclude Include="dayType.h" />
+    <ClInclude Include="extDateType.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="calendarProject.cpp" />
+    <ClCompile Include="calendarType.cpp" />
+    <ClCompile Include="dateType.cpp" />
+    <ClCompile Include="dayType.cpp" />
+    <ClCompile Include="extDateType.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
